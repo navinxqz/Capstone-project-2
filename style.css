@@ -45,7 +45,8 @@
 .skill-grid{
   display: grid;
   grid-template: 20% 20% 20% 20% 20%/ 20% 20%;
-  gap: 10px;
+  row-gap: 30px;
+  column-gap: 300px;
   margin-left: 50vh;
   margin-top: 10px;
 }
@@ -53,11 +54,19 @@
   height: 20vh;
   width: 20vh;
   border-radius: 20vh;
+  align-items: start;
+  border-color: #134B70;
+  /* border-style:solid; */
 }
 .skillHeading{
   font-size: 50px;
   font-weight: bolder;
   margin-left: 300px;
   margin-bottom: 70px;
+}
+.About1{
+  margin-left: 60px;
+  margin-right: 60px;
+  align-items: center;
 }
 
