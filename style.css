@@ -42,3 +42,22 @@
   display: grid;
   grid-row: 2 / span 3;
 }
+.skill-grid{
+  display: grid;
+  grid-template: 20% 20% 20% 20% 20%/ 20% 20%;
+  gap: 10px;
+  margin-left: 50vh;
+  margin-top: 10px;
+}
+.gif{
+  height: 20vh;
+  width: 20vh;
+  border-radius: 20vh;
+}
+.skillHeading{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 300px;
+  margin-bottom: 70px;
+}
+
