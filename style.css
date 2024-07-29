@@ -11,8 +11,22 @@
     height: 500px;
     border-radius: 50vh;
   }
+#education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 50vh;
+    margin-left: 300px;
+    margin-top: 100px;
+}
 .edu-container{
     display: grid;
     grid-template: 20% 20% 20% 20% 20% / 50% 50%;
     gap: 10px;
+}
+.edu-title{
+    font-size: 45px;
+    font-weight: bold;
+    /* margin-bottom: 300px; */
 }
