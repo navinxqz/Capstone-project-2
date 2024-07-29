@@ -4,12 +4,14 @@
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
+ 
   .subtitle{
     font-size: 25px;
   }
   .profilepic{
     height: 500px;
     border-radius: 50vh;
+    /* margin-bottom: 20vh; */
   }
 #education{
     display: flex;
@@ -30,9 +32,13 @@
 .ins-title{
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 1.5vh;
+  margin-bottom: 1vh;
 }
 #dot{
   margin-top: 10px;
   margin-right: 30px;
+}
+.img-edu{
+  display: grid;
+  grid-row: 2 / span 3;
 }
