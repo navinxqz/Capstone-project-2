@@ -4,3 +4,15 @@
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
+  .subtitle{
+    font-size: 25px;
+  }
+  .profilepic{
+    height: 500px;
+    border-radius: 50vh;
+  }
+.edu-container{
+    display: grid;
+    grid-template: 20% 20% 20% 20% 20% / 50% 50%;
+    gap: 10px;
+}
