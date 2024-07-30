@@ -22,11 +22,11 @@
     margin-left: 300px;
     margin-top: 100px;
 }
-.edu-container{
+/* .edu-container{
     display: grid;
     grid-template: 20% 20% 20% 20% 20% / 50% 50%;
     gap: 10px;
-}
+} */
 .edu-title{
     font-size: 50px;
     font-weight: bolder;
