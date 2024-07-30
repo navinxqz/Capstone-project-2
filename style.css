@@ -19,7 +19,7 @@
 #education{
     display: flex;
     width: 100vh;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     margin-top: 100px;
 }
 /* .edu-container{
@@ -30,6 +30,7 @@
 .edu-title{
     font-size: 50px;
     font-weight: bolder;
+    padding: 0;
     /* margin-bottom: 300px; */
 }
 .ins-title{
