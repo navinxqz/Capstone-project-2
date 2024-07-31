@@ -17,7 +17,7 @@
   margin-top: 3vh;
 }
 #education{
-    width: 100vh;
+    width: 70vh;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10vh;
@@ -50,11 +50,11 @@
   display: grid;
   grid-template: 20% 20% 20% 20% 20%/ 20% 20%;
   row-gap: 30px;
-  column-gap: 300px;
+  column-gap: 250px;
+  margin-left: 70px;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* margin-left: 50vh; */
   margin-top: 10px;
 }
 .gif{
@@ -66,14 +66,20 @@
   /* border-style:solid; */
 }
 .skillHeading{
+  text-align: center;
   font-size: 50px;
   font-weight: bolder;
-  /* margin-left: 300px; */
-  margin-bottom: 70px;
+  margin-bottom: 10vh;
 }
 .About1{
-  margin-left: 60px;
-  margin-right: 60px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   align-items: center;
+}
+@media (max-width: 768px) {
+  .skill-grid {
+    margin: 0;
+    column-gap: 150px;
+  }
 }
 
