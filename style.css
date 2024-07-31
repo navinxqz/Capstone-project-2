@@ -17,7 +17,7 @@
   margin-top: 3vh;
 }
 #education{
-    display: flex;
+    /* display: flex; */
     width: 100vh;
     /* margin-left: 300px; */
     margin-top: 100px;
@@ -51,7 +51,10 @@
   grid-template: 20% 20% 20% 20% 20%/ 20% 20%;
   row-gap: 30px;
   column-gap: 300px;
-  margin-left: 50vh;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* margin-left: 50vh; */
   margin-top: 10px;
 }
 .gif{
@@ -65,7 +68,7 @@
 .skillHeading{
   font-size: 50px;
   font-weight: bolder;
-  margin-left: 300px;
+  /* margin-left: 300px; */
   margin-bottom: 70px;
 }
 .About1{
