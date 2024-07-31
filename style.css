@@ -22,11 +22,6 @@
     margin-top: 10px;
     margin-bottom: 10vh;
 }
-/* .edu-container{
-    display: grid;
-    grid-template: 20% 20% 20% 20% 20% / 50% 50%;
-    gap: 10px;
-} */
 .edu-title{
     font-size: 50px;
     font-weight: bolder;
@@ -80,6 +75,9 @@
   .skill-grid {
     margin: 0;
     column-gap: 150px;
+  }
+  .profilepic{
+    height: 300px;
   }
 }
 
