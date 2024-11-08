@@ -108,20 +108,37 @@ header{
       }
     }
   }
-
-  @media (max-width: 768px) {
+  @media(max-width: 1024px){
     flex-direction: column;
-    padding: 0;
-    .logo-holder{
-      margin-bottom: 10px;
-    }
+    align-items: center;
+  }
+  @media (max-width: 768px) {
     nav{
       ul{
         display: none;
-        flex-direction: column;
+        /* flex-direction: column;
         li{
           margin-right: 0;
           margin-bottom: 10px;
+        } */
+         &.show{
+          display: flex;
+          flex-direction: column;
+          /* align-items: center; */
+          position: absolute;
+          top: 60px;
+          right: 0;
+          background-color: var(--bg-color);
+          border: 1px solid rgba(0,0,0,0.1);
+          border-radius: 10px;
+          z-index: 1;
+          li{
+            margin-right: 0;
+            margin-bottom: 0;
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+          }
         }
       }
     }
