@@ -9,7 +9,9 @@
     --bg-color: #EEEEEE;
     --txt-color: #31363F;
     --border-color: #000000;
-    --purple: #9290C3;
+
+    --hover-col: #E7F6F2;
+    --hover-bg: #395B64;
 }
 
 body{
@@ -45,20 +47,22 @@ header{
     display: flex;
     padding: 10px;
     align-items: center;
-    font-weight: 600;
+    /* font-weight: 700; */
     
     .logo{
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: var(--border-color);
-      color: var( --bg-color);
+      color: var(--border-color);
+      font-weight: 700;
 
-      height: 60px;
-      width: 60px;
-      font-size: 15px;
+      font-size: 20px;
       margin-right: 20px;
-      border-radius: 25%;
+      /* border-radius: 25%; */
+      &:hover{
+        text-decoration: none;
+        /* color: var(--purple); */
+      }
     }
   }
   nav{
@@ -78,13 +82,14 @@ header{
         margin-right: 20px;
         font-weight: 400;
         font-size: 20px;
+        padding-top: 10px;
 
         a{
           padding: 10px 20px;
           &:hover{
-            background-color: var(--border-color);
+            background-color: var(--hover-bg);
             text-decoration: none;
-            color: var(--purple);
+            color: var(--hover-col);
             border-radius: 10px;
           }
         }
