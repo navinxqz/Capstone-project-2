@@ -4,6 +4,15 @@
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
+  body{
+    font-family: 'Space Gerotesk', sans-serif;
+    background-color: #EEEEEE;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+} 
   .subtitle{
     font-size: 25px;
   }
@@ -16,13 +25,7 @@
   text-align: justify;
   margin-top: 3vh;
 }
-body{
-    font-family: 'Space Gerotesk', sans-serif;
-    background-color: #EEEEEE;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+
 #education{
     width: 70vh;
     margin: 0 auto;
