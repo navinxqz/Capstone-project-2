@@ -16,6 +16,13 @@
   text-align: justify;
   margin-top: 3vh;
 }
+body{
+    font-family: 'Space Gerotesk', sans-serif;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
 #education{
     width: 70vh;
     margin: 0 auto;
