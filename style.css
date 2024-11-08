@@ -1,18 +1,103 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #134B70;
+    --sec-color: #508C9B;
+    --bg-color: #EEEEEE;
+    --txt-color: #31363F;
+    --border-color: #000000;
+    --purple: #9290C3;
+}
+
+body{
+  font-family: 'Space Gerotesk', sans-serif;
+  background-color: #EEEEEE;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+
+  a{
+    text-decoration: none;
+    color: var(--txt-color);
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+header{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  max-width: 1440px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+  .logo-holder{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-weight: 600;
+    
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--border-color);
+      color: var( --bg-color);
+
+      height: 60px;
+      width: 60px;
+      font-size: 15px;
+      margin-right: 20px;
+      border-radius: 25%;
+    }
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0;
+      gap: 5px;
+
+      li{
+        display: inline-block;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: 20px;
+
+        a{
+          padding: 10px 20px;
+          &:hover{
+            background-color: var(--border-color);
+            text-decoration: none;
+            color: var(--purple);
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
 .gradient-background {
     /* background: linear-gradient(300deg, #522258, #8C3061, #D95F59); */
     background: linear-gradient(300deg, #134B70, #508C9B, #EEEEEE);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-  }
-  body{
-    font-family: 'Space Gerotesk', sans-serif;
-    background-color: #EEEEEE;
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.5;
-    /* padding: 0; */
-    /* box-sizing: border-box; */
-} 
+  } 
   .subtitle{
     font-size: 25px;
   }
