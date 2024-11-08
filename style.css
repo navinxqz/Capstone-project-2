@@ -95,6 +95,36 @@ header{
         }
       }
     }
+    .toggle{
+      display: none;
+      color: var(--txt-color);
+      padding: 10px;
+
+      @media(max-width: 768px){
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        right: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0;
+    .logo-holder{
+      margin-bottom: 10px;
+    }
+    nav{
+      ul{
+        display: none;
+        flex-direction: column;
+        li{
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }
 .gradient-background {
