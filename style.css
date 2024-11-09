@@ -68,6 +68,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: ease 0.3s all;
     /* padding: 10px; */
 
     ul{
@@ -139,13 +140,44 @@ header{
     }
   }
 }
+.container{
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 30px;
+
+  @media(max-width: 1440px){
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.button{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: var(--hover-col);
+  border-radius: 10px;
+  transition: ease 0.3s all;
+
+  &:hover{
+    background-color: var(--sec-color);
+    text-decoration: none;
+  }
+  &.black{
+    background-color: black;
+    color: white;
+    &:hover{
+      background-color: var(--hover-col);
+      color: black;
+    }
+  }
+}
 .hero{
   display: flex;
-  margin-top: 30px;
-
   .cover-txt{
     flex: 1;
-    /* padding: 30px; */
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
