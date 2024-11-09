@@ -152,6 +152,19 @@ header{
     padding-right: 30px;
   }
 }
+h1{
+  font-size: 60px;
+  line-height: 1;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  small{
+    display: block;
+    font-weight: 100;
+  }
+  @media(max-width: 1024px){
+    font-size: 50px;
+  }
+}
 .button{
   display: inline-block;
   padding: 10px 30px;
@@ -175,7 +188,9 @@ header{
 }
 .hero{
   display: flex;
-  /* align-items: center; */
+  @media(max-width: 1024px){
+    flex-direction: column;
+  }
   .cover-txt{
     flex: 1;
     padding: 30px;
@@ -194,7 +209,8 @@ header{
     .social-links{
       a{
         &:hover{
-          /* color: var(--primary-color); */
+          background-color: var(--hover-col);
+          border-radius: 10px;
           text-decoration: none;
         }
       }
@@ -206,12 +222,16 @@ header{
     display: flex;
     justify-content: center;
     margin-top: -30px;
+    user-select: none;
+    
     img{
       height: 400px;
       margin-top: -25px;
       margin-bottom: -20px;
       max-width: 420px;
       border-radius: 50vh;
+      -webkit-user-drag: none;
+      pointer-events: none;
     }
   }
 }
