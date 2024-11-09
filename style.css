@@ -32,7 +32,6 @@ body{
     }
   }
 }
-
 header{
   padding-top: 10px;
   padding-bottom: 2px;
@@ -116,11 +115,6 @@ header{
     nav{
       ul{
         display: none;
-        /* flex-direction: column;
-        li{
-          margin-right: 0;
-          margin-bottom: 10px;
-        } */
          &.show{
           display: flex;
           flex-direction: column;
@@ -132,6 +126,7 @@ header{
           border: 1px solid rgba(0,0,0,0.1);
           border-radius: 10px;
           z-index: 1;
+          
           li{
             margin-right: 0;
             margin-bottom: 0;
@@ -141,6 +136,32 @@ header{
           }
         }
       }
+    }
+  }
+}
+.hero{
+  display: flex;
+  margin-top: 30px;
+
+  .cover-txt{
+    flex: 1;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cover-img{
+    flex: 1;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    img{
+      height: 450px;
+      margin-top: -60px;
+      margin-bottom: -30px;
+      max-width: 420px;
+      border-radius: 50vh;
     }
   }
 }
